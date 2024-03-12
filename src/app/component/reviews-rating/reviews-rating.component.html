@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="d-flex justify-content-between py-5 flex-wrap">
+        @for (item of reviews; track $index) {
+        <div class="content d-flex flex-column text-center mb-3">
+            <h1 class="mb-0 fw-bold fs-2 d-flex align-items-center justify-content-center gap-2">{{item.count}} @if (item.rating) {
+                <i class="bi bi-star-fill fs-small"></i>
+                <i class="bi bi-star-fill fs-small"></i>
+                <i class="bi bi-star-fill fs-small"></i>
+                <i class="bi bi-star-fill fs-small"></i>
+                <i class="bi bi-star-fill fs-small"></i>
+            }</h1>
+            <p class="mb-0">{{item.text}}</p>
+        </div>
+        }
+
+    </div>
+</div>

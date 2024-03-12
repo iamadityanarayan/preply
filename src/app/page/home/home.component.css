@@ -1,0 +1,50 @@
+header,
+.pp-banner-container {
+    background-color: #ff7aac;
+}
+
+.tag-line {
+    letter-spacing: -4.2px;
+}
+
+.py-25 {
+    padding-top: 0.785rem;
+    padding-bottom: 0.785rem;
+}
+
+.hero-image-container{
+    height: auto;
+    /* max-width: 90%; */
+    position: relative;
+    z-index: 1;
+}
+
+.hero-image-container img {
+    border-radius: 8px;
+    /* height: auto; */
+    max-width: 90%;
+}
+
+.one{
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    position: absolute;
+    z-index: 0;
+}
+
+.two{
+    transform: translate(112px, 0) scale(0.8);
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+}
+.three {
+    transform: translate(212px, 0) scale(0.6);
+    opacity: 1;
+    position: absolute;
+    z-index: -2;
+}
+
+.btn-space{
+    padding: 4px 90px;
+}

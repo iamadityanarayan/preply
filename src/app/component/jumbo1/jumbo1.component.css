@@ -1,0 +1,20 @@
+.bg-pink{
+    background-color: #ff7aac;
+}
+
+.jumbo-one{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+@media (min-width: 314px) {
+    .j-title {
+        letter-spacing: -2px;
+        font-size: 2rem;
+    }
+}
+
+.j-title {
+    letter-spacing: -7px;
+    font-size: 6rem;
+}
